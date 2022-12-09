@@ -8,7 +8,6 @@ public class Audience {
         this.bag = bag;
     }
 
-
     public Long buy(Ticket ticket) {
         if (bag.hasInvitation()) {
             bag.setTicket(ticket);

@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class TicketOffice {
+
     private Long amount;
     private final List<Ticket> tickets = new ArrayList<>();
 
