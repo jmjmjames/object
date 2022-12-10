@@ -14,6 +14,6 @@ public class TicketSeller {
 
     // Theater가 파는 것이 아닌 Seller가 파는 것이다.
     public void sellTo(Audience audience) {
-        ticketOffice.plusAmount(audience.buy(ticketOffice.getTicket()));
+        ticketOffice.sellTicketTo(audience);
     }
 }
